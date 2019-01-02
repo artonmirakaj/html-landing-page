@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #4F4D53;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #E8BE02;
+  font-family: 'Roboto', sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+}
+
+h3 {
+  color: #E8BE02;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+h4 {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+p {
+  color: #4F4D53;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#navbar {
+  background-color: #4F4D53;
+  height: 48px;
+  width: 100%;
+}
+
+.navbar-content {
+  margin: auto;
+  padding: 10px 0 0 0;
+  width: 800px;
+}
+
+.main {
+  background: url('./media/img_hero.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.content {
+  margin: auto;
+  padding: 50px 0;
+  width: 800px;
+}
+
+.band {
+  background-color: #E8BE02;
+  height: 12px;
+}
+
+.footer {
+  background-color: #4F4D53;
+  flex-direction: row;
+  height: 320px;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 800px;
+}
+
+#join-us {
+  line-height: 4;
+}
+
+.list>h4 {
+  padding: 0;
+  margin: 0;
+  line-height: 1.3;
+}
